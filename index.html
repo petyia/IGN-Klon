@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="custom-scroll-bar.css" />
+    <link
+      href="//db.onlinewebfonts.com/c/466deba3855c345af3e1371e28d783ae?family=ARS+Maquette+Web+One"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="nyíl-rotate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>IGN Hungary</title>
+    <script src="sticky.js" defer></script>
+    <script src="arrow-rotate.js" defer></script>
+    <!-- <script src="nyíl-rotate.js"></script> -->
+    <script src="nav-hover.js" defer></script>
+    <script src="friss-timer2.js" defer></script>
+    <script src="friss-timer.js" defer></script>
+  </head>
+  <body>
+    <div class="scrollbar" id="style-1">
+      <div class="force-overflow"></div>
+
+      <header class="header">
+        <nav class="navbar">
+          <div class="header-container">
+            <div class="orszag">
+              <img
+                src="img/IGN_logo_PNG1.png"
+                alt="ign logo"
+                class="ign-logo"
+              />
+              <p class="orszag-betu">Hungary</p>
+            </div>
+            <ul class="nav-container">
+              <li class="nav-link">
+                <a href="#" class="nav-a-link">Filmek</a>
+              </li>
+              <li class="nav-link">
+                <a href="#" class="nav-a-link">Sorozatok</a>
+              </li>
+              <li class="nav-link">
+                <a href="#" class="nav-a-link">Tesztek/Kritikák</a>
+              </li>
+              <li class="nav-link">
+                <a href="#" class="nav-a-link">Gaming</a>
+              </li>
+              <li class="nav-link tovabb">
+                <a href="#" class="nav-a-link main-button containerem">
+                  <span>Tovább</span>
+                  <span class="dropdown-arrow">
+                    <ion-icon
+                      name="chevron-down-outline"
+                      class="svg-icon"
+                      id="nav-nyil"
+                    ></ion-icon>
+                  </span>
+                  <!-- <div class="hidden">
+                <ul>
+                  <li>IGN Hungary</li>
+                  <li>IGN Hungary</li>
+                  <li>Impresszum</li>
+                  <li>Kapcsolat</li>
+                  <li>Etikai Kódex</li>
+                  <li>Impresszum</li>
+                  <li>Kapcsolat</li>
+                  <li>Etikai Kódex</li>
+                </ul>
+              </div> -->
+                </a>
+
+                <!-- <ul id="submenu">
+              <li><a href="#">Difference between SVG vs. Canvas</a></li>
+              <li><a href="#">New features in HTML5</a></li>
+              <li>
+                <a href="#">Creating links to sections within a webpage</a>
+              </li>
+            </ul> -->
+              </li>
+              <li class="nav-link">
+                <a href="#" class="nav-a-link"
+                  ><ion-icon name="search" class="search-icon"></ion-icon
+                ></a>
+              </li>
+              <li class="nav-link">
+                <a href="#" class="nav-a-link btn">Belépés</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="header-container v2">
+          <ul class="nav-container v2">
+            <li class="nav-link v2">
+              <a href="#" class="nav-a-link">Filmkalendárium 2023</a>
+            </li>
+            <li class="nav-link v2">
+              <a href="#" class="nav-a-link">Játékkalendárium 2023</a>
+            </li>
+            <li class="nav-link v2">
+              <a href="#" class="nav-a-link">Kritikaösszesítő</a>
+            </li>
+            <li class="nav-link v2">
+              <a href="#" class="nav-a-link">IGN Shop</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <div class="page-container">
+          <section class="friss">
+            <div class="grid-row-4">
+              <a href="#tlou" class="kartya-link">
+                <span class="kartya v1">
+                  <!-- <img src="img/brg.webp" alt="10 dolog" class="kartya-kep" /> -->
+                  <p class="kartya-cim bg1">
+                    KRITIKA: The Last of Us - 1. évad, 2. rész
+                  </p>
+                </span>
+              </a>
+              <a href="#brendan" class="kartya-link">
+                <span class="kartya v2">
+                  <!-- <img src="img/brg.webp" alt="10 dolog" class="kartya-kep" /> -->
+                  <p class="kartya-cim bg2">
+                    Ingyenes játékok a hétvégére – Ideje felcsatolni a
+                    varázsköpenyt!
+                  </p>
+                </span>
+              </a>
+              <a href="#brendan" class="kartya-link">
+                <span class="kartya v3">
+                  <!-- <img src="img/brg.webp" alt="10 dolog" class="kartya-kep" /> -->
+                  <p class="kartya-cim bg3">
+                    Lara Croft feltámad: Tomb Raider-sorozat készül az
+                    Amazonnál, egy felkapott színész-írónő fejleszti
+                  </p>
+                </span>
+              </a>
+              <a href="#brendan" class="kartya-link">
+                <span class="kartya v4">
+                  <!-- <img src="img/brg.webp" alt="10 dolog" class="kartya-kep" /> -->
+                  <p class="kartya-cim bg4">
+                    10 dolog, amit nem biztos, hogy tudtál Brendan Gleesonről
+                  </p>
+                </span>
+              </a>
+            </div>
+          </section>
+        </div>
+        <section class="fokuszban-olvasdel">
+          <div class="page-container">
+            <div class="fokusz">
+              <h2>Fókuszban</h2>
+              <div class="flex-container">
+                <div class="cikk-doboz">
+                  <a href="#" class="fokusz-link">
+                    <img
+                      src="/img/pspl.webp"
+                      alt="Kiszivárogtak a PS Plus februári ingyenes játékai: Egy remek
+                  remake-et is kapunk a következő hónapban"
+                      class="cikk-kep"
+                    />
+                    <p class="kepala">
+                      Kiszivárogtak a PS Plus februári ingyenes játékai: Egy
+                      remek remake-et is kapunk a következő hónapban
+                    </p>
+                  </a>
+                </div>
+                <div class="cikk-doboz">
+                  <a href="#" class="fokusz-link">
+                    <img src="/img/hv.webp" alt="10 dolog" class="cikk-kep" />
+                    <p class="kepala">
+                      Hogwarts Legacy: Kiderült, nagyjából mennyi mellékküldetés
+                      lesz a játékban, és mi történik, ha sötét varázslatokat
+                      használunk
+                    </p>
+                  </a>
+                </div>
+                <div class="cikk-doboz">
+                  <a href="#" class="fokusz-link">
+                    <img src="/img/av2.webp" alt="10 dolog" class="cikk-kep" />
+                    <p class="kepala">
+                      Miközben nálunk az Avatar 2. az első olyan film, ami 2
+                      milliárd forintot keresett, világszinten beelőzte a
+                      Végtelen háborút: Már csak négy film van előtte
+                    </p>
+                  </a>
+                </div>
+                <div class="cikk-doboz">
+                  <a href="#" class="fokusz-link">
+                    <img
+                      src="/img/tlou3.webp"
+                      alt="10 dolog"
+                      class="cikk-kep"
+                    />
+                    <p class="kepala">
+                      A The Last of Us alkotói elmagyarázták, miért változtatták
+                      meg gyökeresen Bill és Frank történetét a sorozatban
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="olvasd">
+              <h2>Olvasd el ezt is!</h2>
+              <div class="flex-container">
+                <div class="cikk-doboz">
+                  <a href="#" class="fokusz-link">
+                    <img src="/img/pmX.webp" alt="10 dolog" class="cikk-kep" />
+                    <p class="kepala">
+                      KÖZLEMÉNY: Megszűnik a pontozás a játékrovatban
+                    </p>
+                  </a>
+                </div>
+                <div class="cikk-doboz">
+                  <a href="#" class="fokusz-link">
+                    <img
+                      src="/img/egsfree.webp"
+                      alt="10 dolog"
+                      class="cikk-kep"
+                    />
+                    <p class="kepala">
+                      Jövő héten ismét egy nagyágyúra csaphatunk le ingyen az
+                      Epic Games Store-ban
+                    </p>
+                  </a>
+                </div>
+                <div class="cikk-doboz">
+                  <a href="#" class="fokusz-link">
+                    <img src="/img/xgp.webp" alt="10 dolog" class="cikk-kep" />
+                    <p class="kepala">
+                      A Riot Game játékaival és extra jutalmakkal bővült a Game
+                      Pass
+                    </p>
+                  </a>
+                </div>
+                <div class="cikk-doboz">
+                  <a href="#" class="fokusz-link">
+                    <img src="/img/brg.webp" alt="10 dolog" class="cikk-kep" />
+                    <p class="kepala">
+                      10 dolog, amit nem biztos, hogy tudtál Brendan Gleesonről
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="page-container">
+          <section class="friss">
+            <div class="grid-2-c">
+              <div class="lf">
+                <h2 class="border-bottom">Legfrissebb hírek</h2>
+              </div>
+
+              <div class="flex-container-frissh">
+                <div class="friss-doboz friss1">
+                  <a href="#"
+                    ><img
+                      src="img/dbd2.webp"
+                      alt="dave"
+                      class="cikk-kep friss1"
+                  /></a>
+                </div>
+                <div class="szveg">
+                  <div class="info-flex">
+                    <div id="timer"></div>
+                    <div class="kommentek">
+                      <a href="#">
+                        <span class="komm">
+                          <ion-icon
+                            name="chatbubble-outline"
+                            class="svg-komm"
+                          ></ion-icon
+                          >Hozzászólások
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="frissh">
+                      Dave Bautista szerint a Dűne 2. része "sokkal jobban fel
+                      lesz pörgetve", mint az első, és beköszön egy olyan műfaji
+                      elem is, ami eddig kimaradt
+                    </h3>
+                  </div>
+                  <div>
+                    <p class="cikk-szveg">
+                      Dave Bautista visszatér a Dűne 2-ben is, így tudja, mi a
+                      dörgés a folytatással kapcsolatban: el is árult róla
+                      néhány fontos részletet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex-container-frissh">
+                <div class="friss-doboz friss1">
+                  <a href="#"
+                    ><img
+                      src="img/gta6.webp"
+                      alt="dave"
+                      class="cikk-kep friss1"
+                  /></a>
+                </div>
+                <div class="szveg">
+                  <div class="info-flex">
+                    <div id="timer2"></div>
+                    <div class="kommentek">
+                      <a href="#">
+                        <span class="komm">
+                          <ion-icon
+                            name="chatbubble-outline"
+                            class="svg-komm"
+                          ></ion-icon
+                          >Hozzászólások
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="frissh">
+                      Elég gyanús, hogy elkészült a GTA 6, a Rockstar pedig már
+                      az utolsó simításokat végzi rajta
+                    </h3>
+                  </div>
+                  <div>
+                    <p class="cikk-szveg">
+                      A legendás Grand Theft Auto következő részére váró
+                      rajongók úgy vélik, hogy már a célegyenesben lehet a
+                      Rockstar következő nagy projektje.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex-container-frissh no-br">
+                <div class="friss-doboz friss1">
+                  <a href="#"
+                    ><img src="img/sh2.webp" alt="dave" class="cikk-kep friss1"
+                  /></a>
+                </div>
+                <div class="szveg">
+                  <div class="info-flex">
+                    <div id="timer"></div>
+                    <div class="kommentek">
+                      <a href="#">
+                        <span class="komm">
+                          <ion-icon
+                            name="chatbubble-outline"
+                            class="svg-komm"
+                          ></ion-icon
+                          >Hozzászólások
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="frissh">
+                      Zachary Levi nyíltan beleszállt az oltásokba: Elő is
+                      vették James Gunnt, hogy így hogy maradhat része a DCU-nak
+                    </h3>
+                  </div>
+                  <div>
+                    <p class="cikk-szveg">
+                      A DC következő mozifilmje a Shazam folytatása Zachary Levi
+                      főszereplésével, aki a napokban a koronavírus elleni
+                      vakcinákat kritizálta Twitteren. A stúdió új társelnöke
+                      elmondta, hogy hogyan kezelik a jövőben azokat a
+                      helyzeteket, amikor egy színész olyan dolgot mond, amivel
+                      nem értenek egyet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div><img src="" alt="" /></div>
+            </div>
+          </section>
+        </div>
+        <section class="megjelenesek">
+          <div class="page-container">
+            <div class="megj">
+              <h2>Közelgő megjelenések</h2>
+              <div class="flex-container">
+                <div class="cikk-doboz">
+                  <a href="#" class="fokusz-link">
+                    <img
+                      src="/img/hgl.webp"
+                      alt="Kiszivárogtak a PS Plus februári ingyenes játékai: Egy remek
+                    remake-et is kapunk a következő hónapban"
+                      class="cikk-kep megjk"
+                    />
+                    <p class="kepala">Hogwarts Legacy</p>
+                  </a>
+                </div>
+                <div class="cikk-doboz">
+                  <a href="#" class="fokusz-link">
+                    <img
+                      src="/img/tsett.webp"
+                      alt="10 dolog"
+                      class="cikk-kep megjk"
+                    />
+                    <p class="kepala">The Settlers: New Allies</p>
+                  </a>
+                </div>
+                <div class="cikk-doboz">
+                  <a href="#" class="fokusz-link">
+                    <img
+                      src="/img/psvr2.webp"
+                      alt="10 dolog"
+                      class="cikk-kep megjk"
+                    />
+                    <p class="kepala">PlayStation VR 2</p>
+                  </a>
+                </div>
+                <div class="cikk-doboz">
+                  <a href="#" class="fokusz-link">
+                    <img
+                      src="/img/cmp3.webp"
+                      alt="10 dolog"
+                      class="cikk-kep megjk"
+                    />
+                    <p class="kepala">Company of Heroes 3</p>
+                  </a>
+                </div>
+                <div class="cikk-doboz">
+                  <a href="#" class="fokusz-link">
+                    <img
+                      src="/img/re4r.webp"
+                      alt="10 dolog"
+                      class="cikk-kep megjk"
+                    />
+                    <p class="kepala">Resident Evil 4 Remake</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="page-container">
+          <section class="friss">
+            <div class="grid-2-c">
+              <div class="flex-container-frissh">
+                <div class="friss-doboz friss1">
+                  <a href="#"
+                    ><img src="img/hv.webp" alt="dave" class="cikk-kep friss1"
+                  /></a>
+                </div>
+                <div class="szveg">
+                  <div class="info-flex">
+                    <div id="timer"></div>
+                    <div class="kommentek">
+                      <a href="#">
+                        <span class="komm">
+                          <ion-icon
+                            name="chatbubble-outline"
+                            class="svg-komm"
+                          ></ion-icon
+                          >Hozzászólások
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="frissh">
+                      Hogwarts Legacy: A végső trailer egy izgalmakkal teli és
+                      szó szerint varázslatos kalandot vetít előre
+                    </h3>
+                  </div>
+                  <div>
+                    <p class="cikk-szveg">
+                      Hamarosan megnyitja kapuit a virtuális Roxfort, ám előtte
+                      még kaptunk egy launch trailert, ami felkészít minket a
+                      nagy utazásra.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex-container-frissh">
+                <div class="friss-doboz friss1">
+                  <a href="#"
+                    ><img
+                      src="img/gta6.webp"
+                      alt="dave"
+                      class="cikk-kep friss1"
+                  /></a>
+                </div>
+                <div class="szveg">
+                  <div class="info-flex">
+                    <div id="timer2"></div>
+                    <div class="kommentek">
+                      <a href="#">
+                        <span class="komm">
+                          <ion-icon
+                            name="chatbubble-outline"
+                            class="svg-komm"
+                          ></ion-icon
+                          >Hozzászólások
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="frissh">
+                      Elég gyanús, hogy elkészült a GTA 6, a Rockstar pedig már
+                      az utolsó simításokat végzi rajta
+                    </h3>
+                  </div>
+                  <div>
+                    <p class="cikk-szveg">
+                      A legendás Grand Theft Auto következő részére váró
+                      rajongók úgy vélik, hogy már a célegyenesben lehet a
+                      Rockstar következő nagy projektje.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex-container-frissh no-br">
+                <div class="friss-doboz friss1">
+                  <a href="#"
+                    ><img src="img/sh2.webp" alt="dave" class="cikk-kep friss1"
+                  /></a>
+                </div>
+                <div class="szveg">
+                  <div class="info-flex">
+                    <div id="timer"></div>
+                    <div class="kommentek">
+                      <a href="#">
+                        <span class="komm">
+                          <ion-icon
+                            name="chatbubble-outline"
+                            class="svg-komm"
+                          ></ion-icon
+                          >Hozzászólások
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="frissh">
+                      Zachary Levi nyíltan beleszállt az oltásokba: Elő is
+                      vették James Gunnt, hogy így hogy maradhat része a DCU-nak
+                    </h3>
+                  </div>
+                  <div>
+                    <p class="cikk-szveg">
+                      A DC következő mozifilmje a Shazam folytatása Zachary Levi
+                      főszereplésével, aki a napokban a koronavírus elleni
+                      vakcinákat kritizálta Twitteren. A stúdió új társelnöke
+                      elmondta, hogy hogyan kezelik a jövőben azokat a
+                      helyzeteket, amikor egy színész olyan dolgot mond, amivel
+                      nem értenek egyet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div><img src="" alt="" /></div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
